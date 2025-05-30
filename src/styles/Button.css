@@ -1,0 +1,57 @@
+.btn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: none;
+  font-size: 0.95em;
+}
+
+.btn-primary {
+  background: #3498db;
+  color: white;
+  box-shadow: 0 2px 8px rgba(52, 152, 219, 0.3);
+}
+
+.btn-primary:hover {
+  background: #2980b9;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(52, 152, 219, 0.4);
+}
+
+.btn-add {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.btn-add:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-1px);
+}
+
+.btn-card {
+  background: #f8f9fa;
+  color: #495057;
+  width: 100%;
+  text-align: left;
+  padding: 12px;
+  margin-top: 8px;
+  border: 1px solid #e9ecef;
+}
+
+.btn-card:hover {
+  background: #e9ecef;
+}
+
+
+
+const arr1= [1,2,3]
+const arr2 = [4, 5, 6]
+const arr3=[arr1,arr2]
+[[1,2,3][4,5,6]]
+
+const {rest}={name:a,age:2}
